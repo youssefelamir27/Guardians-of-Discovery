@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 10000px;
+}
+.EGY{
+    position: relative;
+    
+}
+.EGY::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    /* top: ; */
+    /* left: 100%; */
+    right: 35;
+    top: 3;
+    background: -webkit-linear-gradient(red,white,black);
+}
+.carousel-item img{
+    height: 100vh;
+
+}
+.carousel-caption{
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 4px;
+    line-height: 30px;
+    /* word-spacing: 10px; */
+    
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.socmed li{
+    font-size: 50px;
+    opacity: 0.7;
+    list-style-type: none;
+}
+.socmed li:hover{
+    opacity: 1;
+    scale: 1.1;
+    transition: 0.5s;
+}
+/* attribute selector */
+.boxy_content [type="button"]{
+    border-radius: 4px;
+    background-color: rgb(0, 72, 255);
+    color: white;
+    width: 100px;
+}
+.content2 button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    color: rgb(0, 72, 255);
+    /* height: 100px; */
+}
+.content2 button:hover{
+    background-color: rgb(0, 72, 255) ;
+
+    color: white;
+}
+.topdest a{
+    font-size: 20px;
+}
+
+.containertrans{
+    background-image: url(../images/pharou.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 2200px;
+}
+.sect-pack{
+    background-image: url(../images/stunningback.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1800px;   
+}
+.mc{
+    position: relative;
+}
+.mc::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+
+}
+.mc:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    background-color:rgb(0, 72, 255) ;
+    opacity: 0.1;
+}
+.mc::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.mc:hover::before{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    background-color:rgb(0, 72, 255) ;
+    opacity: 0.1;
+}
+.engclass{
+    transition: 1s;
+}
+.engclass:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+
+}
+.newanmi{
+    width: 0;
+    height: 5px;
+    /* border: 2px solid red; */
+    background-color: darkgray;
+    animation-name: change;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+@keyframes change {
+    0%{
+
+    }
+    /* 25%{
+        width: 50px;
+    } */
+    50%{
+        width: 75px;
+    }
+    /* 75%{
+        width: 125px;
+    } */
+    100%{
+        width: 200px;
+    }
+    
+}
+.newssec:hover .newanmi{
+    /* cursor: pointer; */
+    animation-play-state: running;
+}
+.newssec button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(214, 209, 209);
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.newssec button:last-of-type{
+     width: 200px;
+     background-color: green;
+      color:  rgb(214, 209, 209);
+}
+.newssec button:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+.newssec button:last-of-type:hover{
+    background-color: rgb(214, 209, 209);
+    color:  green;
+}
+.newssec{
+    box-shadow: 1px  1px 10px 15px rgb(3, 123, 236);
+}
+.lastly p{
+    width: 100%;
+    height: 3px;
+}
+.lastly ul{
+    list-style-type: none;
+}
+.lastly ul li{
+    list-style-type: none;
+    padding-bottom: 17px;
+}
+.lastly ul li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.lastly ul a{
+    text-decoration: none;
+    color: white;
+}
+.lastly div span:nth-child(3){
+    font-weight: bold;
+    font-size: 25;
+}
+.lastly div{
+    position: relative;
+}
+.lastly div p:last-of-type{
+    position: absolute;
+    top: 100%;
+
+}

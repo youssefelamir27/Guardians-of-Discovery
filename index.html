@@ -1,0 +1,771 @@
+<html>
+    <head>
+        <title>Guardians of Discovery</title>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+     <body>
+       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <div class="container-fluid pt-0">
+    <a class="navbar-brand" href="#">
+      <img src="images/egypt-logo-png_seeklogo-529030.png" alt="Avatar Logo" style="width:45px;" class="rounded-pill ms-4"> 
+    </a>
+    <a class="EGY navbar-brand fs-3 ps-5 pe-5" href="javascript:void(0)" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">EGYPT</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto" style="font-size: 18px ;">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Links</a>
+        </li>
+        <li class="nav-item dropdown">
+  <a class="triiip nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="border: 1px solid rgb(3, 123, 236);">Trips</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Giza&nbsp;&&nbsp;Cairo</a></li>
+    <li><a class="dropdown-item" href="#">Sharm El-Sheikh</a></li>
+    <li><a class="dropdown-item" href="#">Alexandria</a></li>
+    <li><a class="dropdown-item" href="#">Sahl Hasheesh</a></li>
+    <li><a class="dropdown-item" href="#">Marsa Alam</a></li>
+    <li><a class="dropdown-item" href="#">Hurghada</a></li>
+    <li><a class="dropdown-item" href="#">Luxor&nbsp;&&nbsp;Aswan</a></li>
+  </ul>
+</li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">About</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex pt-0 pe-3">
+        <input class="form-control me-2" style="width: 300px;" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+        <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#myModal">
+  Login
+</button>
+
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- The Modal -->
+<div class="modal" id="myModal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-primary">
+        <h4 class="modal-title" style="color: white;">Login</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+         <div class="container mt-3">
+  <h4 class="text-primary">Email address</h4>
+  <form action="/action_page.php">
+    <div class="input-group mb-3 ms-auto">
+      <input type="text" class="form-control" name="email" style="display: block;">
+      
+    </div>
+    </form>
+    <p class="text-muted fs-0.1">We'll never share your email with anyone else.</p>
+    
+</div>
+<div class="container mt-3">
+  <h4 class="text-primary">Password</h4>
+  <form action="/action_page.php">
+    <div class="input-group mb-3 ms-auto">
+      <input type="password" class="form-control" name="password">
+    </div>
+    </form>
+    <div class="form-check-primary form-switch custom-switch">
+    <input class="form-check-input" type="checkbox" id="rememberMe">
+    <label class="form-check-label" for="rememberMe" style="font-weight: bold;">Remember me</label>
+  </div>
+</div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer" style="position: relative;">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="position: absolute; left: 10;">Login</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- ///////////////////////////////////////////////// -->
+
+<section>
+ <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+ 
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/Cairo-Tour-from-Sharm-El-Sheikh-by-Plane-Egypt-Tours-Portal.jpg" alt="Los Angeles" class="d-block w-100">
+      <div class="boxy_content carousel-caption">
+  <h3>Giza</h3>
+  <p>Walk with pharaohs beneath the Great Pyramids—where eternity meets the desert sands.</p>
+  <input type="button" value="Visit Us">
+</div>
+    </div>
+    <div class="boxy_content carousel-item">
+      <img src="images/Aswan-City-Egypt-Egypt-Tours-Portal.jpg" alt="Chicago" class="d-block w-100">
+    <div class="carousel-caption">
+  <h3>Aswan</h3>
+  <p>Sail the Nile at sunset, where golden light dances on ancient temple walls.</p>
+  <input type="button" value="Visit Us">
+</div>
+    </div>
+    <div class="boxy_content carousel-item">
+      <img src="images/Alexandria-Library-Trips-in-Egypt-3.jpg" alt="New York" class="d-block w-100">
+      <div class="carousel-caption">
+  <h3>Alexandria</h3>
+  <p>Where Cleopatra’s legacy mingles with the Mediterranean breeze.</p>
+   <input type="button" value="Visit Us">
+</div>
+    </div>
+    <div class="boxy_content carousel-item">
+      <img src="images/sarm-el-seyh-plaj.webp" alt="New York" class="d-block w-100">
+      <div class="carousel-caption">
+  <h3>Sharm El-Sheikh</h3>
+  <p>Dive into crystal waters—where coral reefs sparkle like underwater jewels.</p>
+  <input type="button" value="Visit Us">
+</div>
+    
+    </div>
+    
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+</section>
+
+<section>
+  <div class="content2 p-4 bg-primary text-white">
+  <h2 class="pb-2">Unlock Egypt’s Wonders in 10 Days!</h2>
+  <p>Walk in the footsteps of pharaohs as you explore the Great Pyramids, sail the Nile past ancient temples, and dive into the Red Sea’s vibrant reefs. From the bustling souks of Cairo to the serene sunset at Abu Simbel, this journey blends adventure, history, and luxury—all crafted for unforgettable memories. Your Egyptian dream starts here!</p>
+  <!-- <input class="text-primary bg-" type="button" value="Read More"> -->
+   <button>Read More</button>
+</div>
+</section>
+<section>
+   <!-- social media list -->
+   <ul class="socmed flex-column justify-content-between" style="position: fixed; top: 48%;  left: 94%; transform: translateY(-50%); z-index: 2000;">
+    <li><i class="fab fa-facebook"></i></li>
+    <li><i class="fab fa-instagram-square"></i></li>
+    <li><i class="fab fa-telegram"></i></li>
+    <li><i class="fab fa-whatsapp-square"></i></li>
+   </ul>
+</section>
+
+<section>
+  <p class="mt-5 mb-5 bg-secondary" style="width: 100%; height: 3px;"></p>
+</section>
+
+<section>
+  <div class="bg-secondary" style="width: 100%; height: 150px; text-align: center;">
+    <h1  style="color: white; padding-top: 75px; transform: translateY(-25%);">Top Destinations in Egypt</h1>
+  </div>
+</section>
+
+
+<section>
+  <div class="topdest container mt-3">
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+          Cairo & Giza
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+        <div class="card-body">
+          <p><span style="font-weight: bold;">Must-Sees:&nbsp;</span>Pyramids of Giza, Sphinx, Egyptian Museum, Khan el-Khalili Bazaar.</p>
+          <p>Why Visit? Heart of ancient history and vibrant modern culture.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        Sharm El-Sheikh
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+           <p><span style="font-weight: bold;">Must-Sees:&nbsp;</span>Ras Mohammed National Park, Naama Bay, Mount Sinai.</p>
+          <p>Why Visit? Luxury resorts and world-class diving.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+          Alexandria
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+           <p><span style="font-weight: bold;">Must-Sees:&nbsp;</span>Bibliotheca Alexandrina, Qaitbay Citadel, Mediterranean Corniche.</p>
+          <p>Why Visit? Coastal charm with Greco-Roman history.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefour">
+          Marsa Alam
+        </a>
+      </div>
+      <div id="collapsefour" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+           <p><span style="font-weight: bold;">Must-Sees:&nbsp;</span>Elphinstone Reef, Dolphin House, Abu Dabbab Beach, Wadi el-Gemal.</p>
+          <p>Why Visit? Pristine Red Sea paradise for diving, wildlife, and untouched beaches.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefive">
+          Luxor
+        </a>
+      </div>
+      <div id="collapsefive" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+           <p><span style="font-weight: bold;">Must-Sees:&nbsp;</span>Valley of the Kings, Karnak Temple, Luxor Temple, Hot Air Balloon Rides at Sunrise.</p>
+          <p>Why Visit? The world's greatest open-air museum – where pharaohs, temples and golden tombs bring ancient Egypt to life!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsesix">
+          Aswan
+        </a>
+      </div>
+      <div id="collapsesix" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+           <p><span style="font-weight: bold;">Must-Sees:&nbsp;</span>Philae Temple, Abu Simbel, Nile Felucca Rides, Nubian Villages.</p>
+          <p>Why Visit? Where the Nile shines brightest – from majestic monuments to colorful Nubian culture and tranquil river islands.</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+    
+</section>
+
+
+
+<div class="containertrans" style="width: 100%;">
+<section class="begin">
+  <p class="mt-5 mb-5 bg-secondary" style="width: 100%; height: 3px;"></p>
+</section>
+ 
+<section>
+  <div class="bg-secondary" style="width: 100%; height: 100px; text-align: center; border-radius: 20px;">
+    <h1  style="color: white; padding-top: 50px; transform: translateY(-25%);">Need Help Understanding Arabic?</h1>
+  </div>
+</section>
+
+<section>
+  <div class="trsection" style="width: 100%; height: 60vh; background-color: darkgray;">
+    <div class="container">
+      <p class="fs-3 pt-5 text-dark"><span style="font-weight: bold;">Paste any phrase below</span>, and we’ll translate it to English for you!</p>
+      <!-- <label for="comment">Comments:</label> -->
+       <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" title="copy to clipboard" data-bs-target="#mymodal2">
+  Copy text
+</button>
+
+<textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    </div>
+  </div>
+  <!-- The Modal -->
+<div class="modal" id="mymodal2">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <h5>Message has been copied</h5>
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+  
+</section>
+
+<section>
+  <p class="mt-5 mb-5 bg-secondary" style="width: 100%; height: 3px;"></p>
+</section>
+
+
+<section>
+  <div class="bg-secondary" style="width: 100%; height: 100px; text-align: center; border-radius: 20px;">
+    <h1  style="color: white; padding-top: 50px; transform: translateY(-25%);">Besoin d'aide avec l'arabe ?</h1>
+  </div>
+</section>
+
+<section>
+  <div class="trsection" style="width: 100%; height: 60vh; background-color: darkgray;">
+    <div class="container">
+      <p class="fs-3 pt-5 text-dark"><span style="font-weight: bold;">Collez n’importe quelle phrase ci</span>, dessous et nous la traduirons en français pour vous !</p>
+      <!-- <label for="comment">Comments:</label> -->
+       <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" title="copier dans le presse-papier" data-bs-target="#mymodal3">
+  Texte copié 
+</button>
+<textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+  </div>
+  
+</section>
+<!-- The Modal -->
+<div class="modal" id="mymodal3">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+        <h5>Le texte a été copié.</h5>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<section>
+  <p class="mt-5 mb-5 bg-secondary" style="width: 100%; height: 3px;"></p>
+</section>
+
+<section>
+  <div class="bg-secondary" style="width: 100%; height: 100px; text-align: center; border-radius: 20px;">
+    <h1  style="color: white; padding-top: 50px; transform: translateY(-25%);">Brauchen Sie Hilfe mit Arabisch?</h1>
+  </div>
+</section>
+
+<section>
+  <div class="trsection" style="width: 100%; height: 60vh; background-color: darkgray;">
+    <div class="container">
+      <p class="fs-3 pt-5 text-dark"><span style="font-weight: bold;">Fügen Sie unten einen beliebigen Satz ein</span>– und wir übersetzen ihn für Sie ins Deutsche!</p>
+      <!-- <label for="comment">Comments:</label> -->
+       <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" title="in die Zwischenablage kopieren" data-bs-target="#mymodal4">
+  Text kopieren 
+</button>
+<textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+  </div>
+  
+</section>
+<!-- The Modal -->
+<div class="modal" id="mymodal4">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+        <h5>Der Text wurde kopiert.</h5>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<section class="sect-pack">
+  <section style="background-color: white; min-height: 1050px; padding-bottom: 50px;">
+    <div class="bg-primary mb-5" style="width: 100%; height: 100px; text-align: center; border-radius: 20px;">
+      <h1 style="color: white; padding-top: 50px; transform: translateY(-25%);">Egypt Tour Packages</h1>
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+          <div class="mc card" style="width: 100%; max-width: 300px;">
+            <img class="card-img-top img-fluid" src="images/cairo-city-egypt-2020.jpg" alt="Card image" style="height: 250px;">
+            <div class="card-body" style="position: relative; padding-bottom: 60px;">
+              <div class="card-cont">
+                <h5 class="card-title">Classic Wonders (7 Days)</h5>
+                <p class="card-text">Cairo + Luxor + Aswan</p>
+              </div>
+              <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px; right: 15px;">know more</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+          <div class="mc card" style="width: 100%; max-width: 300px;">
+            <img class="card-img-top img-fluid" src="images/hur3.jpeg" alt="Card image" style="height: 250px;">
+            <div class="card-body" style="position: relative; padding-bottom: 60px;">
+              <div class="card-cont">
+                <h5 class="card-title">Red Sea Escape (5 Days)</h5>
+                <p class="card-text">Hurghada</p>
+              </div>
+              <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px; right: 15px;">know more</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+          <div class="mc card" style="width: 100%; max-width: 300px;">
+            <img class="card-img-top img-fluid" src="images/luxor.jpg" alt="Card image" style="height: 250px; ">
+            <div class="card-body" style="position: relative; padding-bottom: 60px;">
+              <div class="card-cont">
+                <h5 class="card-title">Pharaohs & Beaches (10 Days)</h5>
+                <p class="card-text">Cairo + Luxor + Hurghada</p>
+              </div>
+              <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px; right: 15px;">know more</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+          <div class="mc card" style="width: 100%; max-width: 300px;">
+            <img class="card-img-top img-fluid" src="images/1371760177_SIwa Oasis Cover.jpg" alt="Card image" style="height: 250px;">
+            <div class="card-body" style="position: relative; padding-bottom: 60px;">
+              <div class="card-cont">
+                <h5 class="card-title">Desert Adventure (8 Days)</h5>
+                <p class="card-text">Siwa Oasis + Bahariya (White Desert)</p>
+              </div>
+              <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px; right: 15px;">know more</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 5 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3  d-flex justify-content-center">
+          <div class="mc card" style="width: 100%; max-width: 300px;">
+            <img class="card-img-top img-fluid" src="images/stcat.jpg" alt="Card image" style="height: 250px;">
+            <div class="card-body" style="position: relative; padding-bottom: 60px;">
+              <div class="card-cont">
+                <h5 class="card-title">Biblical Egypt Pilgrimage</h5>
+                <p class="card-text">Mount Sinai + St. Catherine's + Nile Delta</p>
+              </div>
+              <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px; right: 15px;">know more</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 6 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3  d-flex justify-content-center">
+          <div class="mc card" style="width: 100%; max-width: 300px;">
+            <img class="card-img-top img-fluid" src="images/fayoum.jpg" alt="Card image" style="height: 250px; ">
+            <div class="card-body" style="position: relative; padding-bottom: 60px;">
+              <div class="card-cont">
+                <h5 class="card-title">Art & Photography Tour</h5>
+                <p class="card-text">Cairo + Faiyum + Luxor</p>
+              </div>
+              <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px; right: 15px;">know more</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 7 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3  d-flex justify-content-center">
+          <div class="mc card" style="width: 100%; max-width: 300px;">
+            <img class="card-img-top img-fluid" src="images/alexxxx.jpg" alt="Card image" style="height: 250px; ">
+            <div class="card-body" style="position: relative; padding-bottom: 60px;">
+              <div class="card-cont">
+                <h5 class="card-title">Cycling Egypt (15 Days)</h5>
+                <p class="card-text">Alexandria + Nile Valley + Red Sea</p>
+              </div>
+              <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px; right: 15px;">know more</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 8 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center">
+          <div class="mc card" style="width: 100%; max-width: 300px;">
+            <img class="card-img-top img-fluid" src="images/392318796-Abu-Simbel-Sun-Festival.jpg" alt="Card image" style="height: 250px;">
+            <div class="card-body" style="position: relative; padding-bottom: 60px;">
+              <div class="card-cont">
+                <h5 class="card-title">Festival Special (Dates Vary)</h5>
+                <p class="card-text">Abu Simbel Sun Festival (Feb/Oct)</p>
+              </div>
+              <a href="#" class="btn btn-primary" style="position: absolute; bottom: 15px; right: 15px;">know more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<section>
+    <div class="bg-secondary " style="width: 100%; height: 100px; text-align: center; margin-bottom: 80px;">
+    <h1  style="color: white; padding-top: 50px; transform: translateY(-25%);">Built with Passion, Crafted with Precision</h1>
+  </div>
+  </section>
+<section style="margin-bottom: 100px;">
+  <div class="d-flex flex-wrap text-white justify-content-around">
+  <div class="engclass" style="position: relative;">
+    <img src="images/farouk.jpg" class="rounded" alt="Cinque Terre" width="400px" height="600px">
+    <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.4);">
+      <h5 class="mt-3 ps-3">Eng. Farouk – "The Virtuoso"</h5>
+      <img src="images/farouk.jpg" class="rounded-circle  mb-1" alt="Cinque Terre" width="120px" height="130px" style="margin-top: 86%; margin-left: 40px;">
+      <div class="ms-3">
+        <p style="font-weight: bold;">Eng Ahmed Farouk</p>
+      <p>Precision-engineered solutions at scale</p>
+      </div>
+    </div>
+  </div>
+  <div class="engclass" style="position: relative;">
+    <img src="images/youssef3.png" class="rounded" alt="Cinque Terre" width="400px" height="600px">
+    <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.4);">
+      <h5 class="mt-3 ps-3">Eng. Youssef – "The Sentinel"</h5>
+      <img src="images/youssef3.png" class="rounded-circle mb-1" alt="Cinque Terre" width="120px" height="130px" style="margin-top:  86%; margin-left: 40px;">
+      <div class="ms-3">
+         <p style="font-weight: bold;">Eng Youssef Elamir</p>
+      <p>Guardian of robustness and performance</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="engclass" style="position: relative;">
+    <img src="images/samih.jpg" class="rounded" alt="Cinque Terre" width="400px" height="600px">
+    <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.4);">
+      <h5 class="mt-3 ps-3">Eng. Samih – "The Visionary"</h5>
+      <img src="images/samih.jpg" class="rounded-circle  mb-1" alt="Cinque Terre" width="120px" height="130px" style="margin-top:  86%; margin-left: 40px;">
+      <div class="ms-3">
+        <p style="font-weight: bold;">Eng Ahmed Samih</p>
+      <p>Transforming complexity into elegant systems</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<section>
+  <p class="mt-5 " style="width: 100%; height: 3px; background-color: black; margin-bottom: 90px;"></p>
+</section>
+<section>
+  <div class="container">
+    <h1 class="mb-5" style="color: black; text-align: center; font-weight: bold; text-decoration: underline;">Visit Egypt News</h1>
+    <div class="row">
+      <!-- News 1 -->
+      <div class="col-12 newssec p-4 p-md-5 bg-primary text-white rounded mb-4 mb-md-5" style="position: relative; min-height: 550px;">
+        <div class="row">
+          <div class="col-md-6 order-2 order-md-1">
+            <h1>Tourism Developments</h1>
+            <p style="font-weight: bold;"><i class="fas fa-table"></i>&nbsp;<span>Mon, February 25th 2025</span></p>
+            <p class="newanmi"></p>
+            <p class="mb-4 mb-md-5">The highly anticipated Grand Egyptian Museum (GEM) has officially announced its phased opening schedule, with the first galleries welcoming visitors in February 2024. This monumental project near the Giza Pyramids will showcase over 50,000 artifacts, including Tutankhamun's complete treasure collection for the first time. Meanwhile, the Ministry of Tourism has introduced new quality standards for Nile cruises, requiring all vessels to upgrade their safety systems and environmental protections by mid-2024. These changes come as Egypt prepares to handle an expected 30% increase in tourist arrivals following the global marketing campaign "Visit Egypt: Where History Lives."</p>
+            <div class="d-flex flex-wrap gap-2">
+              <button class="btn btn-light btn-sm"><i class="fas fa-podcast"></i>&nbsp;<span>podcast</span></button>
+              <button class="btn btn-light btn-sm"><i class="fas fa-clock"></i>&nbsp;<span>55 mins</span></button>
+              <button class="btn btn-light btn-sm"><i class="fas fa-clock"></i>&nbsp;<span>Play Episode</span></button>
+            </div>
+          </div>
+          <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+            <img src="images/gregypmuseum.jpg" alt="" class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 300px;">
+          </div>
+        </div>
+      </div> <!-- news1 -->
+
+      <!-- News 2 -->
+      <div class="col-12 newssec p-4 p-md-5 bg-primary text-white rounded mb-4 mb-md-5">
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="images/nationalmuseum.jpg" alt="" class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 300px;">
+          </div>
+          <div class="col-md-6">
+            <h1>Cultural Discoveries & Events</h1>
+            <p style="font-weight: bold;"><i class="fas fa-table"></i>&nbsp;<span>Thu, March 13th 2025</span></p>
+            <p class="newanmi"></p>
+            <p class="mb-4 mb-md-5">Archaeologists made international headlines last month with the discovery of a perfectly preserved 4,300-year-old pyramid complex near Luxor, believed to belong to a previously unknown queen of the Sixth Dynasty. The site will remain closed for excavation until late 2024, but virtual reality previews are available at the Luxor Museum. On the cultural calendar, preparations are underway for the spectacular reenactment of the Pharaohs' Golden Parade during its third anniversary this November, featuring enhanced light projections and live performances along the 7km route between the Egyptian Museum and GEM.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <button class="btn btn-light btn-sm"><i class="fas fa-podcast"></i>&nbsp;<span>podcast</span></button>
+              <button class="btn btn-light btn-sm"><i class="fas fa-clock"></i>&nbsp;<span>55 mins</span></button>
+              <button class="btn btn-light btn-sm"><i class="fas fa-clock"></i>&nbsp;<span>Play Episode</span></button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- news2 -->
+
+      <!-- News 3 -->
+      <div class="col-12 newssec p-4 p-md-5 bg-primary text-white rounded mb-4 mb-md-5" style="position: relative; min-height: 550px;">
+        <div class="row">
+          <div class="col-md-6 order-2 order-md-1">
+            <h1>Travel Advisories & Practical Information</h1>
+            <p style="font-weight: bold;"><i class="fas fa-table"></i>&nbsp;<span>Tue, May 20th 2025</span></p>
+            <p class="newanmi"></p>
+            <p class="mb-4 mb-md-5">Travelers should note significant changes to visa policies, with Egypt now offering visa-on-arrival extensions from one to three months for most Western nationals. However, stricter enforcement of monument photography rules has been implemented, particularly at the Valley of the Kings where tripods and professional equipment now require special permits. Health officials also remind visitors that while COVID-19 restrictions have been lifted, vaccination certificates are still recommended for cruise passengers and those visiting remote oases. The Central Bank has warned about fluctuating exchange rates, advising tourists to use official exchange offices rather than street vendors.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <button class="btn btn-light btn-sm"><i class="fas fa-podcast"></i>&nbsp;<span>podcast</span></button>
+              <button class="btn btn-light btn-sm"><i class="fas fa-clock"></i>&nbsp;<span>55 mins</span></button>
+              <button class="btn btn-light btn-sm"><i class="fas fa-clock"></i>&nbsp;<span>Play Episode</span></button>
+            </div>
+          </div>
+          <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+            <img src="images/Egypt+Entry+Visa.png" alt="" class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 300px;">
+          </div>
+        </div>
+      </div> <!-- news3 -->
+
+      <!-- News 4 -->
+      <div class="col-12 newssec p-4 p-md-5 bg-primary text-white rounded mb-4 mb-md-5">
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="images/clean.jpg" alt="" class="img-fluid w-100 h-100" style="object-fit: cover; height: 300px;">
+          </div>
+          <div class="col-md-6">
+            <h1>Sustainable Tourism Initiatives</h1>
+            <p style="font-weight: bold;"><i class="fas fa-table"></i>&nbsp;<span>Sat, April 5th 2025</span></p>
+            <p class="newanmi"></p>
+            <p class="mb-4 mb-md-5">In response to environmental concerns, the Red Sea Governorate has launched an ambitious "Blue Paradise" program, creating marine protected zones around popular dive sites like Elphinstone Reef. Several hotels in Hurghada have transitioned to solar energy completely, with plans to expand this initiative to Luxor by 2025. The government is also piloting a revolutionary "Plastic-Free Nile" project using innovative waste collection barges between Aswan and Luxor, aiming to eliminate single-use plastics from cruise operations entirely within two years.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <button class="btn btn-light btn-sm"><i class="fas fa-podcast"></i>&nbsp;<span>podcast</span></button>
+              <button class="btn btn-light btn-sm"><i class="fas fa-clock"></i>&nbsp;<span>55 mins</span></button>
+              <button class="btn btn-light btn-sm"><i class="fas fa-clock"></i>&nbsp;<span>Play Episode</span></button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- news4 -->
+    </div>
+  </div>
+</section>
+
+
+  <section class="hidden gem mb-5">
+    <h1 class="mb-5" style="color: black; text-align: center; font-weight: bold; text-decoration: underline;">Discover Hidden Gems</h1>
+    <div class="row">
+  <div class="col-12 col-md-6 col-lg-3">
+    <div style="width: 350px;  margin: auto; text-align: center;">
+      <h3 class="pb-2">Wadi Al-Hitan</h3>
+      <img src="images/wadi hitan.jpg" class="rounded pb-2" alt="Cinque Terre" width="350px" height="300px">
+      <p><span style="font-weight: bold;">Location:</span>&nbspSinai Peninsula (2hrs from Sharm)</p>
+    </div> <!-- cont 1 -->
+  </div> <!-- first col -->
+  <div class="col-12 col-md-6 col-lg-3">
+    <div  style="width: 350px; margin: auto; text-align: center;">
+      <h3 class="pb-2">Temple&nbspof&nbspHibis</h3>
+      <img  src="images/Hibis-Temple-in-Kharga-oases-in-Egypt-western-desert-Ahmed-Megahid.jpg" class="rounded pb-2" alt="Cinque Terre" width="350px" height="300px">
+      <p><span style="font-weight: bold;">Location:</span>&nbspWestern Desert (4hrs from Luxor)</p>
+    </div> <!-- cont 2 -->
+  </div>
+  <div class="col-12 col-md-6 col-lg-3">
+    <div style="width: 350px;  margin: auto; text-align: center;">
+      <h3 class="pb-2">The&nbspCrystal&nbspMountains</h3>
+      <img src="images/Crystal-rock-hole.jpg" class="rounded pb-2" alt="Cinque Terre" width="350px" height="300px">
+      <p><span style="font-weight: bold;">Location:</span>&nbsp45km from Farafra Oasis</p>
+    </div> <!-- cont 3 -->
+  </div>
+  <div class="col-12 col-md-6 col-lg-3">
+    <div style="width: 350px;  margin: auto; text-align: center;">
+      <h3 class="pb-2">The Colored Canyon</h3>
+      <img src="images/colored-canyon-in-egypt-trips-in-egypt.jpg" class="rounded pb-2" alt="Cinque Terre" width="350px" height="300px">
+      <p><span style="font-weight: bold;">Location:</span>&nbspNuweiba&nbspSouth&nbspSinai</p>
+    </div> <!-- cont 4 -->
+  </div>
+</div>
+  </section>
+
+  <section>
+    <div class="container-fluid bg-dark text-light" style="min-height: 600px;">
+  <div class="lastly d-flex flex-wrap justify-content-around" style="text-align: center;font-size: 23px;">
+    <div class="mt-5" style="width: 400px; height: 400px;">
+      <p class="bg-light"></p>
+      <img src="images/badge1.png" alt="" width="100px" height="100px">
+      <span>Popular links</span>
+      <p class="bg-light mt-3"></p>
+      <ul>
+        <li><a href="">About Egypt</a></li>
+        <li><a href="">Where to go</a></li>
+        <li><a href="">what to do</a></li>
+        <li><a href="">Whats's on</a></li>
+        <li><a href="">Media Kit</a></li>
+      </ul>
+      <p class="bg-light"></p>
+
+    </div>
+    <div class="mt-5" style="width: 400px; height: 400px; ">
+      <p class="bg-light "></p>
+      <img src="images/badge2.png" alt="" width="100px" height="100px">
+      <span>Helpful information</span>
+      <p class="bg-light mt-3"></p>
+      <ul>
+        <li>Plan Your Trip</li>
+        <li>Visa guide</li>
+        <li>Practical Info</li>
+        <li>Travel Safe</li>
+        <li>How to Get There</li>
+      </ul>
+      <p class="bg-light"></p>
+    
+    </div>
+    <div class="mt-5" style="width: 400px; height: 400px;">
+      <p class="bg-light"></p>
+      <img src="images/badge3.png" alt="" width="100px" height="100px">
+      <span>Contact Us</span>
+      <p class="bg-light mt-3"></p>
+      <ul style="margin-top: 50px;">
+        <li><span style="font-weight: bold;">Phone:</span>&nbsp;+20 123 456 7890</li>
+         <li><span style="font-weight: bold;">WhatsApp:</span>&nbsp;+20 101 234 5678</li>
+        <li><span style="font-weight: bold;">Email:</span>&nbsp;contact@egypttraveldreams.com</li>
+      </ul>
+      <p class="bg-light"></p>
+    
+    </div>
+  </div>
+  <h2 class="mt-5" style="text-align: center;">© 2024 Guardians of Discovery. All Rights Reserved.</h2>
+</div>
+  </section>
+
+
+
+
+
+        <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
